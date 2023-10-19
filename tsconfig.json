@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"esModuleInterop": true,
+		"target": "ES2020",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "dist"
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", ".vscode", "**/*.spec.ts", "**/*.test.ts"],
+	"lib": ["es2015"]
+}
